@@ -57,6 +57,7 @@ public class TestBankAccount {
 				
 			case 4:
 				System.out.println("Old over draft sum ==> " + bankAccount.getOverDraftsum());
+				System.out.println("New over draft sum ==> ");
 				bankAccount.setOverDraftsum(input.nextDouble());
 				System.out.println("New over draft sum ==> " + bankAccount.getOverDraftsum());
 				System.out.println(" ------------------------------------ ");
